@@ -16,14 +16,20 @@ var ss = SpreadsheetApp.openById("1xE-XXXXXXXXXXXXXXXXXXXXXXXX").getSheetByName(
   Logger.log('%s, %s', error.message, error.stack);
 }
 
-do {
+  do {
     i = 0;
-    var page = AdminDirectory.Mobiledevices.list(customerId, {
+    try {
+      var page = AdminDirectory.Mobiledevices.list(customerId, {
         orderBy: 'os',
         maxResults: 100,
         query: 'status:pending',
         pageToken: pageToken
-      };
+      });
+    } catch (error) {
+      Logger.log(error);
+      Logger.log('%s, %s', error.message, error.stack);
+
+    }
 
     } while (pageToken);
     
