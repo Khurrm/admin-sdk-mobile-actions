@@ -34,7 +34,7 @@ var users = page.mobiledevices;
 
 for (i = 0; i < users.length; i++) {
       var user = users[i];
-     
+      Logger.log("%s %s %s",user.name, user.email, user.model, user.brand);
 	 }
 
     } while (pageToken);
