@@ -32,6 +32,10 @@ var ss = SpreadsheetApp.openById("1xE-XXXXXXXXXXXXXXXXXXXXXXXX").getSheetByName(
     }
 var users = page.mobiledevices;
 
+for (i = 0; i < users.length; i++) {
+      var user = users[i];
+     
+	 }
 
     } while (pageToken);
     
