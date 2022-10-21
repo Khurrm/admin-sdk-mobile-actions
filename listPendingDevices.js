@@ -30,6 +30,8 @@ var ss = SpreadsheetApp.openById("1xE-XXXXXXXXXXXXXXXXXXXXXXXX").getSheetByName(
       Logger.log('%s, %s', error.message, error.stack);
 
     }
+var users = page.mobiledevices;
+
 
     } while (pageToken);
     
