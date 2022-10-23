@@ -48,7 +48,8 @@ for (i = 0; i < users.length; i++) {
 
     } while (pageToken);
     
-
-
+    pageToken = page.nextPageToken;
+    Logger.log("The last page token is %s (For checking purposes)", pageToken);
+    Logger.log("The variable i value is %d (For checking purposes)", i);
 }
 
