@@ -35,6 +35,15 @@ var users = page.mobiledevices;
 for (i = 0; i < users.length; i++) {
       var user = users[i];
       Logger.log("%s %s %s",user.name, user.email, user.model, user.brand);
+	  
+	  ss.getRange(i + 2, 2).setValue(user.name);
+      ss.getRange(i + 2, 3).setValue(user.email[0]);
+      ss.getRange(i + 2, 4).setValue(user.brand);
+      ss.getRange(i + 2, 5).setValue(user.model);
+      ss.getRange(i + 2, 6).setValue(user.type);
+      ss.getRange(i + 2, 7).setValue(user.status);
+      ss.getRange(i + 2, 8).setValue(user.deviceId);
+      ss.getRange(i + 2, 9).setValue(user.lastSync);
 	 }
 
     } while (pageToken);
