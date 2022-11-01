@@ -13,6 +13,9 @@ Actions:
 ### Google Admin SDK - Directory API
 The official documentation is available under [developers.google.com](developers.google.com). I am using [Google Admin SDK directory APIs](https://developers.google.com/admin-sdk) for this purpose. 
 
+### Method: mobiledevices.list
+I have used the [method mobiledevices.list](https://developers.google.com/admin-sdk/directory/reference/rest/v1/mobiledevices/list) for this purpose. 
+
 **Note** When I am uploading the code on Github then *.gs files are added as *.js. 
 
 ## listPendingDevices
