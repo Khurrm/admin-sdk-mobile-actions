@@ -1,10 +1,10 @@
 # Task Description
 Explore the Admin SDK for Bring Your Own Devices (BYOD) actions. 
 Actions:
-[x] - Approve 
-[x] - Block
-[x] - List 
-[x] - Remote Wipe the work profile
+- [x] (Approve) 
+- [x] (Block)
+- [x] (List) 
+- [ ] (Remote Wipe The Work Profile)
 
 ## Platform to be used
 [Google Apps Script](https://developers.google.com/apps-script) will be used to program the code. 
@@ -14,7 +14,9 @@ Actions:
 
 - **Method: mobiledevices.list**: Method to use =>[method mobiledevices.list](https://developers.google.com/admin-sdk/directory/reference/rest/v1/mobiledevices/list) for this purpose. 
 
-- **Google API Explorer**: Use [Google API Explorer](https://developers.google.com/explorer-help/) to test the APIs before coding. 
+- **Mobile device research fields**: Search fields that can be employed with these functions are [documented](https://developers.google.com/admin-sdk/directory/v1/search-operators) here.
+
+- **Google API Explorer**: Use [Google API Explorer](https://developers.google.com/explorer-help/) to test the APIs that I am using. 
 
 **Note**: When I am uploading the code on Github then *.gs files are added as *.js. 
 
