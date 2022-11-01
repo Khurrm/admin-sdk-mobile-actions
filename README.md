@@ -25,7 +25,4 @@ This Program list all of the pending devices that are not approved at present. T
 This Program list all of the blocked devices that are not approved at present. These devices can also be checked via the the [google admin console](www.admin.google.com).  
 
 ## listApprovedDevices
-This Program list all of the approved devices that are not approved at present. These devices can also be checked via the the [google admin console](www.admin.google.com).  
-
-
-
+This Program list all of the approved devices that are not approved at present. These devices can also be checked via the the [google admin console](www.admin.google.com). 
