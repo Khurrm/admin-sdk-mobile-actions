@@ -4,7 +4,7 @@ Actions:
 - [x] (Approve) 
 - [x] (Block)
 - [x] (List) 
-- [ ] (Remote Wipe The Work Profile)
+- [x] (Wiped Devices)
 
 ## Platform to be used
 [Google Apps Script](https://developers.google.com/apps-script) will be used to program the code. 
