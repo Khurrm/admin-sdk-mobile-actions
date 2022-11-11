@@ -28,3 +28,6 @@ This Program list all of the blocked devices that are not approved at present. T
 
 ## User Defined Method: listApprovedDevices
 This Program list all of the approved devices that are not approved at present. These devices can also be checked via the the [google admin console](www.admin.google.com). 
+
+## User Defined Method: listWipedDevices
+This Program list all of all wiped devices that are not approved at present. These devices can also be checked via the the [google admin console](www.admin.google.com). 
